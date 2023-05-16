@@ -1,0 +1,564 @@
+@font-face {
+    font-family: cocaColaFont;
+    src: url(../assets/fonts/LOKICOLA.TTF);
+}
+
+@font-face {
+    font-family: headline;
+    src: url(../assets/fonts/TCCC-UnityHeadline\ Regular.ttf);
+}
+
+/* Logo */
+
+.logo {
+    margin-top: 25px;
+}
+
+.logo h1 {
+    font-family: cocaColaFont;
+    /* You don't need to repeat this for each media query as it is propagated */
+    font-size: 50px;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+
+.logo h2 {
+    font-family: cocaColaFont;
+    font-size: 50px;
+    margin-top: -6px;
+    margin-bottom: -15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    float: left;
+}
+
+.logo h3 {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+}
+
+.logo p {
+    font-size: 13px;
+    /* You may have to tweak this to get a good fit */
+    margin-top: 45px;
+    /* You may have to tweak this to get a good fit */
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 3px;
+}
+
+
+
+.navbar_coca_cola {
+    border-width: 0px;
+    min-height: 30px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+
+
+.navbar_coca_cola .navbar-nav .nav-item>.active,
+.navbar_coca_cola .navbar-nav>.active>a:hover,
+.navbar_coca_cola .navbar-nav>.active>a:focus {
+    font-weight: bold;
+}
+
+.navbar_coca_cola .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.dropdown-menu {
+    text-align: -webkit-left;
+    margin-top: 20px;
+    /* Experiment to move the dropdown menu down */
+}
+
+.navbar_coca_cola .navbar-toggler {
+    outline: none !important;
+}
+
+.theme-button {
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+
+
+
+.main_contents {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#main_3d_image {
+    background-image: url(../assets/images/main_3D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* The div block for the main_3d_image has no vertical size, 
+so we need a height to see the background image */
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#main_text {
+    float: left;
+    margin: 5%;
+    width: 90%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#main_text h2 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#main_text h3 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#main_text p {
+    font-size: 12px;
+    margin: 0px;
+    line-height: 1.2;
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.blwch {
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    padding: 5px;
+    background-color: rgb(39, 39, 39);
+
+}
+
+.pad {
+    padding-bottom: 5px;
+}
+
+.gallery-header:hover {
+    border: 1px solid transparent;
+}
+
+.gallery-image {
+    max-width: 240px;
+    max-height: 240px;
+    object-fit: contain;
+}
+
+.model3D {
+    border-radius: 5px;
+    padding: 2px;
+    height:419px;
+    background-color: rgba(201, 201, 201, 1);
+
+}
+
+X3D,
+x3d {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%
+}
+
+
+/* Footer */
+.footer {
+    height: 60px;
+}
+
+.navbar-text>a {
+    font-size: 10px;
+}
+
+.navbar-text>p {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 15px;
+}
+
+.social {
+    margin-top: 0px;
+}
+
+.social-logo {
+    color: white;
+    padding-left: 15px;
+}
+
+/* Fonts */
+
+p {
+    font-family: headline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: headline;
+}
+
+.t1 {}
+
+.t2 {}
+
+.t3 {}
+
+.para {}
+
+
+.text {
+    color: #fff;
+    font-family: headline;
+}
+
+
+.gradient-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.gradient-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.8) 100%);
+    background-size: 150% 100%;
+}
+
+.gradient-left:hover {
+    opacity: 1;
+}
+
+.gradient-right:hover {
+    opacity: 1;
+}
+
+.carousel-control {
+    z-index: 1;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+
+
+
+.bottle-icon {
+    position: relative;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+}
+
+.bottle-next-icon {
+    content: url(../assets/icons/right_bottle.svg);
+}
+
+.bottle-next-icon:hover {
+    content: url(../assets/icons/right_bottle_black.svg);
+
+}
+
+.bottle-prev-icon {
+    content: url(../assets/icons/left_bottle.svg);
+}
+
+.bottle-prev-icon:hover {
+    content: url(../assets/icons/left_bottle_black.svg);
+}
+
+.brush {
+    content: url(../assets/icons/brush_white.svg);
+    position: relative;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.slider-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    color: #fff;
+    text-align: center;
+    width: 400px;
+}
+
+.myContainer {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.myButton {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 5px solid transparent;
+    border-radius: 0.375rem;
+    background-color: rgb(71, 71, 71);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.modal-content {
+    background-color: rgb(39, 39, 39) !important;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.myModal {
+    text-align: center;
+    padding: 20px;
+}
+
+.myDropdownItem {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    clear: both;
+    font-weight: 400;
+    color: white;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    border-radius: 5px;
+
+    text-align: left;
+}
+
+.dropdown-item-top {
+    border-top-left-radius: 0.375px;
+    border-top-right-radius: 0.375px;
+}
+
+.dropdown-item-bottom {
+    border-bottom-left-radius: 0.375px;
+    border-bottom-right-radius: 0.375px;
+}
+
+.myIcon {
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+
+
+
+#myCarousel {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (max-width: 576px) {
+
+    .para,
+    .myButton {
+        font-size: xx-small;
+
+    }
+    .brush{
+        height: 30px;
+        }
+
+
+
+}
+
+@media screen and (min-width: 576px) {
+
+    .para,
+    .myButton {
+        font-size: xx-small;
+    }
+    .brush{
+        height: 30px;
+        }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+    .para,
+    .myButton {
+        font-size: 8px;
+    }
+
+    .bottle-icon {
+        opacity: 1;
+    }
+
+    .antimodal {
+        display: block;
+    }
+
+    .t1 {
+        font-size: 12px;
+    }
+
+    .t2 {
+        font-size: 10px;
+    }
+    .brush{
+        height: 30px;
+        }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .para,
+    .myButton {
+        font-size: 8px;
+    }
+
+    .bottle-icon {
+        opacity: 0;
+    }
+
+    .antimodal {
+        display: none;
+    }
+
+    .t1 {
+        font-size: 12px;
+    }
+
+    .t2 {
+        font-size: 10px;
+    }
+    .brush{
+        height: 40px;
+        }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    .para,
+    .myButton {
+        font-size: x-small;
+    }
+
+    .t1 {
+        font-size: medium;
+    }
+
+    .t2 {
+        font-size: small;
+    }
+    .brush{
+    height: 50px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    .para,
+    .myButton {
+        font-size: small;
+    }
+
+    .t1 {
+        font-size: large;
+    }
+
+    .t2 {
+        font-size: medium;
+    }
+    .brush {
+        height: 60px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+
+    .para,
+    .myButton {
+        font-size: large;
+    }
+
+    .t1 {
+        font-size: xx-large;
+    }
+
+    .t2 {
+        font-size: x-large;
+    }
+}

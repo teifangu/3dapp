@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_9" data-name="Layer 9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="107.22" cy="66.87" r="26.44"/>
+  <circle class="cls-1" cx="107.22" cy="333.13" r="26.44"/>
+  <circle class="cls-1" cx="315.67" cy="310.11" r="26.44"/>
+  <circle class="cls-1" cx="315.67" cy="103.89" r="26.44"/>
+</svg>

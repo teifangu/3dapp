@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_19" data-name="Layer 19" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9d9d9c;
+      }
+
+      .cls-2 {
+        fill: #282828;
+      }
+
+      .cls-3 {
+        fill: #3c3c3b;
+      }
+
+      .cls-4 {
+        fill: #878787;
+      }
+
+      .cls-5 {
+        fill: #1d1d1b;
+      }
+    </style>
+  </defs>
+  <path class="cls-4" d="m66.97,98.81l33.43-22.94,253.8,275.39,3.14,7.16c0,14.1-35.22,25.54-78.67,25.54-39.08,0-71.5-9.25-77.63-21.37L66.97,98.81Z"/>
+  <ellipse class="cls-1" cx="278.67" cy="358.42" rx="78.67" ry="25.54"/>
+  <polygon class="cls-5" points="65.76 60.99 52.85 110.97 120 64.69 65.76 60.99"/>
+  <path class="cls-2" d="m60.59,28.1h10.33c11.62,0,21.06,9.43,21.06,21.06v44.72h-52.44v-44.72c0-11.62,9.43-21.06,21.06-21.06Z" transform="translate(-23 48.09) rotate(-34.58)"/>
+  <polygon class="cls-3" points="118.29 83.8 67.77 118.62 57.08 94.6 99.17 63.27 118.29 83.8"/>
+</svg>
