@@ -241,6 +241,15 @@ h6 {
 
 .para {}
 
+.modal-f1 {
+    font-size: x-large;
+}
+.modal-f2 {
+    font-size: large;
+}
+.modal-f3 {
+    font-size: medium;
+}
 
 .text {
     color: #fff;
@@ -342,6 +351,7 @@ h6 {
     margin-right: auto;
     margin-left: auto;
 }
+
 
 .myButton {
     color: rgb(255, 255, 255);

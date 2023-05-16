@@ -63,14 +63,14 @@
 							<a data-bs-toggle="modal" data-bs-target="#aboutModal"
 								class="myDropdownItem dropdown-item-top" href="#">About the Brand</a>
 							<a class="myDropdownItem" href="https://www.coca-cola.co.uk/contact">Contact</a>
-							<a class="myDropdownItem dropdown-item-bottom" href="#">
-								<div data-bs-toggle="modal" data-bs-target="#statementModal">Statement of Originality
+							<a class="myDropdownItem dropdown-item-bottom" href="about">
+								<div>Statement of Originality
 								</div>
 							</a>
 						</div>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#"  onclick="changeTheme()">
+						<a class="nav-link" href="#" onclick="changeTheme()">
 							<img class="brush" src="../assets/icons/brush.svg" alt="Change Theme">
 						</a>
 
@@ -100,21 +100,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="modal" id="statementModal">
-		<div class="modal-dialog">
 
-			<div class="modal-content myModal">
-
-				<div class="modal-header t1 text">
-					Statement of Originality
-				</div>
-				<div class="para text">
-					<?php echo $data["formality"][0]["originality"] ?>
-
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<div class="myContainer">
 		<div class="row">
@@ -134,8 +120,8 @@
 							<div class="row">
 
 								<div class="col-3 slider-caption box flex-column d-flex">
-								<div class="t1 text " data-bs-toggle="modal" data-bs-target="#myModal2">
-									<div class="blwch t1 text">Discover</div>
+									<div class="t1 text " data-bs-toggle="modal" data-bs-target="#myModal1">
+										<div class="blwch t1 text">Discover</div>
 										<div class="antimodal t1 text">
 											<?php echo $data["home"][1]["title"] ?>
 										</div>
@@ -152,15 +138,15 @@
 										<div class="modal-dialog">
 											<div class="modal-content myModal">
 
-												<div class="modal-header  text">
+												<div class="modal-header modal-f1  text">
 													<?php echo $data["home"][1]["title"] ?>
 												</div>
 
-												<div class=" text">
+												<div class="modal-f2 text">
 													<?php echo $data["home"][1]["subtitle"] ?>
 												</div>
 
-												<div class=" text">
+												<div class="modal-f3 text">
 													<?php echo $data["home"][1]["description"] ?>
 												</div>
 
@@ -183,7 +169,7 @@
 							<div class="row">
 								<div class="col-3 slider-caption box flex-column d-flex">
 									<div class="t1 text " data-bs-toggle="modal" data-bs-target="#myModal2">
-									<div class="blwch t1 text">Discover</div>
+										<div class="blwch t1 text">Discover</div>
 										<div class="antimodal t1 text">
 											<?php echo $data["home"][2]["title"] ?>
 										</div>
@@ -200,15 +186,15 @@
 										<div class="modal-dialog">
 											<div class="modal-content myModal">
 
-												<div class="modal-header t1 text">
+												<div class="modal-header modal-f1 text">
 													<?php echo $data["home"][2]["title"] ?>
 												</div>
 												<div>
-													<div class="t2 text">
+													<div class="modal-f2 text">
 														<?php echo $data["home"][2]["subtitle"] ?>
 													</div>
 
-													<div class="para text">
+													<div class="modal-f3 text">
 														<?php echo $data["home"][2]["description"] ?>
 													</div>
 												</div>
@@ -228,8 +214,8 @@
 							<div class="row">
 
 								<div class="col-3 slider-caption box flex-column d-flex">
-								<div class="t1 text " data-bs-toggle="modal" data-bs-target="#myModal2">
-									<div class="blwch t1 text">Discover</div>
+									<div class="t1 text " data-bs-toggle="modal" data-bs-target="#myModal3">
+										<div class="blwch t1 text">Discover</div>
 										<div class="antimodal t1 text">
 											<?php echo $data["home"][3]["title"] ?>
 										</div>
@@ -246,15 +232,15 @@
 										<div class="modal-dialog">
 											<div class="modal-content myModal">
 
-												<div class="modal-header t1 text">
+												<div class="modal-header modal-f1 text">
 													<?php echo $data["home"][3]["title"] ?>
 												</div>
 												<div>
-													<div class="t2 text">
+													<div class="modal-f2 text">
 														<?php echo $data["home"][3]["subtitle"] ?>
 													</div>
 
-													<div class="para text">
+													<div class="modal-f3 text">
 														<?php echo $data["home"][3]["description"] ?>
 													</div>
 												</div>
@@ -311,7 +297,7 @@
 				<a href="https://www.facebook.com/TheCocaColaCo/"><i
 						class="fab fa-facebook-square fa-3x social-logo"></i></a>
 				<a href="https://twitter.com/cocacolaco"><i class="fab fa-twitter fa-3x social-logo"></i></a>
-				<a href="#"><i class="fab fa-github-square fa-3x social-logo"></i></a>
+				<a href="https://github.com/teifangu/3dapp/tree/main/assignment"><i class="fab fa-github-square fa-3x social-logo"></i></a>
 			</div>
 		</div>
 	</nav>

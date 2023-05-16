@@ -205,6 +205,18 @@ class Model {
 				$result["formality"][$j]["originality"] = $data["originality"];
 				$j++;
 			}
+
+			$statement = $this->dbhandle->query("SELECT * FROM Home");
+
+			$i = 0;	
+			while ($data = $statement->fetch()) {
+				$result["home"][$i]["title"] = $data["title"];
+				$result["home"][$i]["subtitle"] = $data["subtitle"];
+				$result["home"][$i]["description"] = $data["description"];
+				$result["home"][$i]["image"] = $data["image"];
+				$result["home"][$i]["url"] = $data["url"];
+				$i++;
+			}
 		}
 		catch (PDOException $e) {
 			print new Exception($e->getMessage());

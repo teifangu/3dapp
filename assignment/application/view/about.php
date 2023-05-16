@@ -65,8 +65,8 @@
                                 class="myDropdownItem dropdown-item-top" href="#">About the Brand</a>
                             <a class="myDropdownItem" href="https://www.coca-cola.co.uk/contact">Contact</a>
                             <a class="myDropdownItem dropdown-item-bottom" href="#">
-                                <div data-bs-toggle="modal" data-bs-target="#statementModal">Statement of Originality
-                                </div>
+                            <div>Statement of Originality
+								</div>
                             </a>
                         </div>
                     </li>
@@ -128,7 +128,7 @@
                 <a href="https://www.facebook.com/TheCocaColaCo/"><i
                         class="fab fa-facebook-square fa-3x social-logo"></i></a>
                 <a href="https://twitter.com/cocacolaco"><i class="fab fa-twitter fa-3x social-logo"></i></a>
-                <a href="#"><i class="fab fa-github-square fa-3x social-logo"></i></a>
+                <a href="https://github.com/teifangu/3dapp/tree/main/assignment"><i class="fab fa-github-square fa-3x social-logo"></i></a>
             </div>
         </div>
     </nav>
